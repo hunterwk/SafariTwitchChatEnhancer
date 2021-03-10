@@ -7,7 +7,7 @@ Google Chrome
 The script searches through all open tabs in all open Safari windows for any with a title containing "twitch".  If more than one are present, a dialog box appears which allows you to select which tab contains the stream you wish to watch and then proceeds to open a pop out chat in Google Chrome.
 
 The raw code is below:
-
+```
 tell application "Safari"
 	activate
 	set winlist to every window
@@ -95,3 +95,4 @@ tell application "Google Chrome"
 	set the URL of active tab of (make new window) to theURL
 	set bounds of front window to {0, 0, 500, 1400}
 end tell
+```
