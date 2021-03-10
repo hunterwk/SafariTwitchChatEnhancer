@@ -1,12 +1,12 @@
-This is a Applescript designed for people who enjoy using Safari as their main browser but miss the chat experience of BetterTwitchTv and FrankerFaceZ.
+### This is a Applescript designed for people who enjoy using Safari as their main browser but miss the chat experience of BetterTwitchTv and FrankerFaceZ.
 
-Requirements:
-Safari
-Google Chrome
+### Requirements:
+1. Safari
+2. Google Chrome
 
 The script searches through all open tabs in all open Safari windows for any with a title containing "twitch".  If more than one are present, a dialog box appears which allows you to select which tab contains the stream you wish to watch and then proceeds to open a pop out chat in Google Chrome.
 
-The raw code is below:
+### The raw code is below:
 ```
 tell application "Safari"
 	activate
