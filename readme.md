@@ -6,6 +6,9 @@
 
 The script searches through all open tabs in all open Safari windows for any with a title containing "twitch".  If more than one are present, a dialog box appears which allows you to select which tab contains the stream you wish to watch and then proceeds to open a pop out chat in Google Chrome.
 
+### Current Limitations:
+Does not work while stream is fullscreened.
+
 ### The raw code is below:
 ```
 tell application "Safari"
